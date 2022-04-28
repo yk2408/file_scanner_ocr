@@ -1,0 +1,12 @@
+[
+    {
+        "image_path" : "thumbnail_Check_4.png",
+        "regex_for_micr" : "[a-d][0-9]{3} [0-9]{3} [0-9][a-d] [a-d][0-9]{5}[a-d][0-9]{3}[a-d]",
+        "regex_for_payer" : "[A-Z]{3} [A-Z]+ [A-Z]{3}.."
+    },
+    {
+        "image_path" : "thumbnail_Check.png",
+        "regex_for_micr" : "[a-d][0-9]{8}[a-d] [a-c][0-9]{9}[a-c] [0-9]{10}[a-d]",
+        "regex_for_payer" : "[A-Za-z]{10}"
+    }
+]
